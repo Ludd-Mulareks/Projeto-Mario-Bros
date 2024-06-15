@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+</head>
+
+
+<body>
+    <div class="mascara-formulario" onclick="esconderFormulario()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="Cabeça Mario">
+        <a> Home </a>
+        <a> Nossos Serviços </a>
+        <a> Fale conosco </a>
+    </div>
+
+
+    <div class="caixa-mae">
+
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="logo" class="logo-mario">
+            <p>Encanadores Mario e Luigi resolvendo seus problemas com estilo. </p>
+            <p>Problemas com encanamento, torneiras e vazamentos? </p>
+            <p>chame Mario e Luigi que eles resolvem! </p>
+
+            <div class="botao">
+                <button onclick="mostrarFormulario()"> entre em contato </button> <!--onclick da o comando para o JS-->
+            </div>
+
+        </div>
+
+        <div>
+            <img src="./img/mario.png" alt="mario e Luigi" class="bros">
+
+        </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+
+        <video src="./img/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="https://wa.me/5512996684890?text=Ol%C3%A1,%20quero%20ajuda%20dos%20irm%C3%A3o%20Bros."
+        class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link whatsapp">
+
+    </a>
+
+    <form class="formulario"   action="https://formcarry.com/s/c4z-5FqjEP6"
+    method="POST"
+    enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu Problema Aqui..." name="dúvida"></textarea>
+        <button type="submit"> Pedir Orçamento </button>
+    </form>
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
